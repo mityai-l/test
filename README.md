@@ -1,5 +1,5 @@
 
-# Студент: Иванов Иван
+# Студент: Левченко Дмитрий
 # Группа: ИС-22
 # Ссылка на сайт: https://ivanpetrov.github.io
 # Ссылка на репозиторий: https://github.com/ivanpetrov/ivanpetrov.github.io
