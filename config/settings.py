@@ -18,6 +18,8 @@ INSTALLED_APPS = [                               # список подключё
     "django.contrib.sessions",                   # сессии
     "django.contrib.messages",                   # всплывающие сообщения
     "django.contrib.staticfiles",                # статика (css/js)
+    "apps.accounts",                             # наше: пользователи
+    "apps.catalog",                              # наше: справочники
 ]
 
 MIDDLEWARE = [                                   # промежуточные слои между запросом и view
@@ -47,6 +49,7 @@ TEMPLATES = [                                    # настройки шабло
 ]
 
 WSGI_APPLICATION = "config.wsgi.application"     # точка входа для сервера
+AUTH_USER_MODEL = "accounts.User"                # наша модель пользователя
 
 DATABASES = {                                    # настройки БД
     "default": {
